@@ -28,9 +28,8 @@
 #include "cmsis_compiler.h"
 #include "Driver_USART.h"
 #include "uart_stdout.h"
-
 #include "test_log.h"
-#include "uart_stdout.h"
+#include "main.h"
 
 /* USER CODE END Includes */
 
@@ -77,16 +76,33 @@ int main(void)
   HAL_Init();
   stdio_init();
   LOG_MSG("Non-Secure system starting...\r\n");
+  aes_cbc_test();
 
   /* USER CODE END 2 */
+
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while(1)
   {
-	  LOG_MSG("Non-Secure system running...\r\n");
+	  //LOG_MSG("Non-Secure system running...\r\n");
 	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
 
+/**
+  * @brief  This function is executed in case of error occurrence
+  * @param  None
+  * @retval None
+  */
+void Error_Handler(void)
+{
+
+  LOG_MSG("%s:%d\r\n", __FUNCTION__, __LINE__);  /* User may add here some code to deal with this error */
+  /* Toggle LED3 @2Hz to notify error condition */
+  while (1)
+  {
+    HAL_Delay(250);
+  }
+}

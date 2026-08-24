@@ -52,7 +52,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+int aes_cbc_test(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

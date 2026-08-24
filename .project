@@ -37,6 +37,11 @@
 			<locationURI>PROJECT_LOC/Application/Src/main.c</locationURI>
 		</link>
 		<link>
+			<name>Application/Src/aes_cbc.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Application/Src/aes_cbc.c</locationURI>
+		</link>		
+		<link>
 			<name>Application/Src/stm32h5xx_it.c</name>
 			<type>1</type>
 			<locationURI>PROJECT_LOC/Application/Src/stm32h5xx_it.c</locationURI>
@@ -45,7 +50,7 @@
 			<name>Application/Src/stm32h5xx_hal_msp.c</name>
 			<type>1</type>
 			<locationURI>PROJECT_LOC/Application/Src/stm32h5xx_hal_msp.c</locationURI>
-		</link>				
+		</link>			
 		<link>
            <name>tf-m-tests/lib/log/tfm_log_raw.c</name>
            <type>1</type>
@@ -82,9 +87,9 @@
 			<locationURI>PARENT-1-PROJECT_LOC/gnu/build_s/api_ns/interface/src/tfm_tz_psa_ns_api.c</locationURI>
 		</link>
 		<link>
-			<name>gnu/build_s/api_ns/interface/src/os_wrapper/tfm_ns_interface_rtos.c</name>
+			<name>gnu/build_s/api_ns/interface/src/os_wrapper/tfm_ns_interface_bare_metal.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/gnu/build_s/api_ns/interface/src/os_wrapper/tfm_ns_interface_rtos.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/gnu/build_s/api_ns/interface/src/os_wrapper/tfm_ns_interface_bare_metal.c</locationURI>
 		</link>
 		<link>
 			<name>gnu/build_s/api_ns/platform/Device/Source/startup_stm32h5xx_ns.c</name>
