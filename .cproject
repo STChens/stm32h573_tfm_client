@@ -87,21 +87,11 @@
 									<listOptionValue builtIn="false" value="NDEBUG"/>
 									<listOptionValue builtIn="false" value="BL2_HEADER_SIZE=0x400"/>
 									<listOptionValue builtIn="false" value="BL2_TRAILER_SIZE=0x2000"/>
-									<listOptionValue builtIn="false" value="CONFIG_TFM_CONNECTION_POOL_ENABLE"/>
-									<listOptionValue builtIn="false" value="CONFIG_TFM_FLOAT_ABI=0"/>
-									<listOptionValue builtIn="false" value="CONFIG_TFM_PARTITION_META"/>
-									<listOptionValue builtIn="false" value="CONFIG_TFM_USE_TRUSTZONE"/>
-									<listOptionValue builtIn="false" value="CRYPTO_HW_ACCELERATOR"/>
 									<listOptionValue builtIn="false" value="ENABLE_HEAP"/>
 									<listOptionValue builtIn="false" value="LOG_LEVEL_UNPRIV=LOG_LEVEL_INFO"/>
 									<listOptionValue builtIn="false" value="MCUBOOT_IMAGE_NUMBER=2"/>
 									<listOptionValue builtIn="false" value="PLATFORM_DEFAULT_CRYPTO_KEYS"/>
 									<listOptionValue builtIn="false" value="PROJECT_CONFIG_HEADER_FILE=&quot;config_tfm_project.h&quot;"/>
-									<listOptionValue builtIn="false" value="PS_AES_KEY_USAGE_LIMIT=0"/>
-									<listOptionValue builtIn="false" value="PS_CRYPTO_AEAD_ALG_CCM"/>
-									<listOptionValue builtIn="false" value="PS_ENCRYPTION"/>
-									<listOptionValue builtIn="false" value="PS_ROLLBACK_PROTECTION=1"/>
-									<listOptionValue builtIn="false" value="RTE_COMPONENTS_H"/>
 									<listOptionValue builtIn="false" value="TARGET_CONFIG_HEADER_FILE=&quot;config_tfm_target.h&quot;"/>
 									<listOptionValue builtIn="false" value="TFM_ISOLATION_LEVEL=2"/>
 									<listOptionValue builtIn="false" value="TFM_PARTITION_CRYPTO"/>
