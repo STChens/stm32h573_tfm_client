@@ -103,9 +103,6 @@
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/platform/ext/common"/>
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/platform/hal/Inc"/>
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/interface/include"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/app_broker/../lib/os_wrapper"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/ext/CMSIS/Config"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/ext/CMSIS/Core/Include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1930282012" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
