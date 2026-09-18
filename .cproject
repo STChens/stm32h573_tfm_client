@@ -88,8 +88,6 @@
 									<listOptionValue builtIn="false" value="ENABLE_HEAP"/>
 									<listOptionValue builtIn="false" value="LOG_LEVEL_UNPRIV=LOG_LEVEL_INFO"/>
 									<listOptionValue builtIn="false" value="MCUBOOT_IMAGE_NUMBER=2"/>
-									<listOptionValue builtIn="false" value="PROJECT_CONFIG_HEADER_FILE=&quot;config_tfm_project.h&quot;"/>
-									<listOptionValue builtIn="false" value="TARGET_CONFIG_HEADER_FILE=&quot;config_tfm_target.h&quot;"/>
 									<listOptionValue builtIn="false" value="TFM_ISOLATION_LEVEL=2"/>
 									<listOptionValue builtIn="false" value="TFM_PSA_CRYPTO_CLIENT_ONLY"/>
 									<listOptionValue builtIn="false" value="TF_PSA_CRYPTO_CONFIG_FILE=&quot;mbedtls/tf_psa_crypto_config.h&quot;"/>
