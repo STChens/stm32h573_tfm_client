@@ -31,6 +31,9 @@
 #include "test_log.h"
 #include "main.h"
 
+#include "psa/client.h"
+//#include "tfm_plat_ns.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -76,6 +79,11 @@ int main(void)
   HAL_Init();
   stdio_init();
   LOG_MSG("Non-Secure system starting...\r\n");
+  LOG_MSG("Hello TF-M world\r\n");
+
+  uint32_t fw_version = psa_framework_version();
+  LOG_MSG("PSA Framework Version = %d.%d\r\n", fw_version >> 8, fw_version & 0xFF);
+
   aes_cbc_test();
 
   /* USER CODE END 2 */
