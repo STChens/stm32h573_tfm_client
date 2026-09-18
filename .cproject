@@ -123,16 +123,9 @@
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/platform/ext/common"/>
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/platform/hal/Inc"/>
 									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/interface/include"/>
-									<listOptionValue builtIn="false" value="../../gnu/build_s/lib/ext/tf-psa-crypto-src/include/"/>
-									<listOptionValue builtIn="false" value="../../gnu/build_s/api_ns/interface/include/crypto_keys"/>
 									<listOptionValue builtIn="false" value="../../tf-m-tests/app_broker/../lib/os_wrapper"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/app_broker/../lib"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/ext/CMSIS/RTX/Include"/>
 									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/ext/CMSIS/Config"/>
 									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/ext/CMSIS/Core/Include"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/lib/nsid_manager/."/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/tests_reg/test/secure_fw/suites/crypto"/>
-									<listOptionValue builtIn="false" value="../../tf-m-tests/tests_reg/test/framework/"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1930282012" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
